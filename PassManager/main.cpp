@@ -3,6 +3,7 @@
 #include <chrono>
 #include "auth.h"
 #include <thread>
+#include "main.h"
 
 using namespace std::chrono_literals;
 
