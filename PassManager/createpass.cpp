@@ -2,10 +2,13 @@
 #include <string>
 #include "logorcreate.h"
 #include "main.h"
+#include "auth.h"
 #include <fstream>
 using namespace std;
 
-void newpass(std::string authlevel) {
+void newpass(std::string authlevelfirst) {
+    checkrev1(authlevelfirst);
+    clearcache;
     string Newpass;
 
     // ask for user input
@@ -26,5 +29,10 @@ void newpass(std::string authlevel) {
     cout << "Password Saved!" << endl;
     system("timeout /T 2 /NOBREAK>nul");
     loading();
+    string authlevelsec;
     encry();
+    clear2(authlevelfirst);
+    clearcache;
+    mainpanel(authlevelsec);
+    
 }

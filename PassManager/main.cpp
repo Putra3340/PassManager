@@ -40,6 +40,7 @@ int main() {
 
     std::cout << std::endl << "Loading complete!" << std::endl;
     system("cls");
+    clearcache;
     std::string authlevelfirst = "yes";
     auth(authlevelfirst);
     return 0;

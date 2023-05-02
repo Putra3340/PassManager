@@ -16,6 +16,9 @@
     <Filter Include="Source Files\encryptpass">
       <UniqueIdentifier>{2d16e542-78cc-4007-8cfd-d463d10d351e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\panel">
+      <UniqueIdentifier>{c87e441e-8638-43c3-92f2-811fb65e4549}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -38,6 +41,15 @@
     </ClCompile>
     <ClCompile Include="dec.cpp">
       <Filter>Source Files\encryptpass</Filter>
+    </ClCompile>
+    <ClCompile Include="err.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="panel.cpp">
+      <Filter>Source Files\panel</Filter>
+    </ClCompile>
+    <ClCompile Include="clean.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

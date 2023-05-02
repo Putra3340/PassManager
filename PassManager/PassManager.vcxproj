@@ -134,12 +134,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="auth.cpp" />
+    <ClCompile Include="clean.cpp" />
     <ClCompile Include="createpass.cpp" />
     <ClCompile Include="dec.cpp" />
     <ClCompile Include="enc.cpp" />
+    <ClCompile Include="err.cpp" />
     <ClCompile Include="loading.cpp" />
     <ClCompile Include="login.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="panel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="auth.h" />
