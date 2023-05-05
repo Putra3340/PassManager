@@ -33,7 +33,7 @@
     <ClCompile Include="login.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="loading.cpp">
+    <ClCompile Include="design.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="enc.cpp">
@@ -50,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="clean.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="datable.cpp">
+      <Filter>Source Files\panel</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

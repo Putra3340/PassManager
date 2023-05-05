@@ -8,7 +8,7 @@ using namespace std;
 
 void newpass(std::string authlevelfirst) {
     checkrev1(authlevelfirst);
-    clearcache;
+    clearcache();
     string Newpass;
 
     // ask for user input
@@ -32,7 +32,7 @@ void newpass(std::string authlevelfirst) {
     string authlevelsec;
     encry();
     clear2(authlevelfirst);
-    clearcache;
+    clearcache();
     mainpanel(authlevelsec);
     
 }

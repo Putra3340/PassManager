@@ -1,7 +1,15 @@
 #include <iostream>
+#include <fstream>
 #include <string>
 #include "main.h"
 
 void clearcache() {
-	system("del uenc.dll");
+	std::ifstream kyah("uenc.dll"); // broken
+	if (kyah.good()) {
+		clearcacheril();
+	}
+}
+
+void clearcacheril() {
+	//broken
 }

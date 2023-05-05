@@ -136,10 +136,11 @@
     <ClCompile Include="auth.cpp" />
     <ClCompile Include="clean.cpp" />
     <ClCompile Include="createpass.cpp" />
+    <ClCompile Include="datable.cpp" />
     <ClCompile Include="dec.cpp" />
     <ClCompile Include="enc.cpp" />
     <ClCompile Include="err.cpp" />
-    <ClCompile Include="loading.cpp" />
+    <ClCompile Include="design.cpp" />
     <ClCompile Include="login.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="panel.cpp" />
