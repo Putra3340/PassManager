@@ -12,4 +12,4 @@ int errlist(std::string err,std::string authlevelfirst);
 void clearcache();
 void line();
 void clearconsole();
-void clearcacheril();
+void clearcacheril(const char* cachename);
