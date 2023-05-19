@@ -144,6 +144,8 @@
     <ClCompile Include="login.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="panel.cpp" />
+    <ClCompile Include="readout.c" />
+    <ClCompile Include="writeout.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="auth.h" />

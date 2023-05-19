@@ -19,6 +19,9 @@
     <Filter Include="Source Files\panel">
       <UniqueIdentifier>{c87e441e-8638-43c3-92f2-811fb65e4549}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\panel\c">
+      <UniqueIdentifier>{f55122ff-bd8b-4627-b87b-95335ea877bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -53,6 +56,12 @@
     </ClCompile>
     <ClCompile Include="datable.cpp">
       <Filter>Source Files\panel</Filter>
+    </ClCompile>
+    <ClCompile Include="readout.c">
+      <Filter>Source Files\panel\c</Filter>
+    </ClCompile>
+    <ClCompile Include="writeout.c">
+      <Filter>Source Files\panel\c</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

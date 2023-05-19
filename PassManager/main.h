@@ -12,4 +12,5 @@ int errlist(std::string err,std::string authlevelfirst);
 void clearcache();
 void line();
 void clearconsole();
+void readdat(std::string authlevelsec);
 void clearcacheril(const char* cachename);
