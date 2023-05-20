@@ -2,5 +2,5 @@
 #include <stdio.h>
 
 void writedata() {
-	printf("Working....")
+	printf("Working....");
 }

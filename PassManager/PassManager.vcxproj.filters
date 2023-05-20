@@ -13,46 +13,28 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\encryptpass">
-      <UniqueIdentifier>{2d16e542-78cc-4007-8cfd-d463d10d351e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\panel">
       <UniqueIdentifier>{c87e441e-8638-43c3-92f2-811fb65e4549}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\panel\c">
       <UniqueIdentifier>{f55122ff-bd8b-4627-b87b-95335ea877bb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{f22d57a4-843d-4ff2-a2e4-173412a20ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\encryptpass">
+      <UniqueIdentifier>{2d16e542-78cc-4007-8cfd-d463d10d351e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="auth.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="createpass.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="login.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="design.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="enc.cpp">
       <Filter>Source Files\encryptpass</Filter>
     </ClCompile>
     <ClCompile Include="dec.cpp">
       <Filter>Source Files\encryptpass</Filter>
     </ClCompile>
-    <ClCompile Include="err.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="panel.cpp">
       <Filter>Source Files\panel</Filter>
-    </ClCompile>
-    <ClCompile Include="clean.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="datable.cpp">
       <Filter>Source Files\panel</Filter>
@@ -62,6 +44,27 @@
     </ClCompile>
     <ClCompile Include="writeout.c">
       <Filter>Source Files\panel\c</Filter>
+    </ClCompile>
+    <ClCompile Include="auth.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="clean.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="createpass.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="design.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="err.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="login.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\base</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
