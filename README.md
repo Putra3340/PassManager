@@ -8,6 +8,6 @@ and double-click PassManager.sln
 
 # Requirement For Build
 Visual Studio 2022 With Desktop development with C++!
-[hertaa2](https://github.com/Putra3340/PassManager/assets/95592362/2e800a62-28d9-4d2d-bb1d-e5534bd03887)
 
 
+https://github.com/Putra3340/MediaSource/blob/main/hertaa1.gif?raw=true
