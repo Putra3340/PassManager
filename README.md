@@ -10,4 +10,4 @@ and double-click PassManager.sln
 Visual Studio 2022 With Desktop development with C++!
 
 
-https://github.com/Putra3340/MediaSource/blob/main/hertaa1.gif?raw=true
+<img src="https://github.com/Putra3340/MediaSource/blob/main/hertaa1.gif?raw=true">
